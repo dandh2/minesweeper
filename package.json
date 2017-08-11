@@ -1,0 +1,16 @@
+{
+  "name": "minesweeper-babel",
+  "version": "1.0.0",
+  "description": "Use Babel to create this game",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
